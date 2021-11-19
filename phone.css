@@ -1,0 +1,112 @@
+ul
+{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+nav{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.rightop
+{
+    padding: 0px 0px;
+    text-align: center;
+    width: 43%;
+}
+ul
+{
+    margin: 1px 1px;
+}
+.rightop input
+{
+    width: 161px;
+    padding: 0px 0px;
+}
+.btn
+{
+    width: 54px;
+    padding: 5px;
+}
+
+.logo img
+{
+    height: 60px;
+    width: 60px;
+}
+.burger
+{
+    display: block;
+}
+nav::before
+{
+    height: var(--hg,77px);
+    transition: all 0.7s ease-out;
+}
+.vopa
+{
+    opacity: 0;
+}
+.mainsec
+{
+    flex-direction: column;
+    width: 100%;
+}
+.logo1
+{
+    margin: auto;
+}
+.para1 p
+{
+    font-size: 15px;
+}
+.para1 .btn
+{
+    width: 78px;
+    margin: 7px 0px;
+    padding: 5px;
+    font-size: 10px;
+}
+.sectionright
+{
+    flex-direction: column;
+    margin: 5px auto;
+    padding-top: 23px;
+    
+}
+.sectionleft
+{
+    flex-direction: column;
+    margin: 5px auto;
+    padding-top: 23px;
+}
+.secleftimg
+{
+    text-align: center;
+    
+}
+.secrtag
+{
+    text-align: center;
+    padding: 6px 0px;
+}
+.secrsubtag
+{
+    padding: 2px 8px;
+    font-size: 14px;
+    text-align: center;
+}
+h3
+{
+    font-size: 23px;
+}
+.secleftimg img
+{
+    width: 172px;
+    height: 87px;
+}
+.for input,.for textarea
+{
+    width: 84%;
+}
